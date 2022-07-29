@@ -1,0 +1,38 @@
+{
+  "name": "screenreader",
+  "version": "1.0.1",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "release": "standard-version"
+  },
+  "dependencies": {
+    "expo": "~45.0.0",
+    "expo-local-authentication": "~12.2.0",
+    "expo-status-bar": "~1.3.0",
+    "expo-updates": "~0.13.3",
+    "moment": "^2.29.4",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-native": "0.68.2",
+    "react-native-fingerprint-scanner": "^6.0.0",
+    "react-native-gesture-handler": "~2.2.1",
+    "react-native-web": "0.17.7",
+    "react-redux": "^8.0.2",
+    "redux": "^4.2.0",
+    "set-interval-async": "^2.0.3",
+    "standard-version": "^9.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@types/react": "~17.0.21",
+    "@types/react-native": "~0.66.13",
+    "@types/set-interval-async": "^1.0.0",
+    "typescript": "~4.3.5"
+  },
+  "private": true
+}
